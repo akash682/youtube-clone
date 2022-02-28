@@ -20,14 +20,14 @@ function Header() {
             </div>
 
             <div className='header_input'>
-                <input text="text" />
-                <SearchIcon />
+                <input placeholder="Search" text="text" />
+                <SearchIcon className='header_inputButton'/>
             </div>
 
-            <div className='header_icon'>
-                <VideoCallIcon />
-                <AppsIcon />
-                <NotificationsIcon/>
+            <div className='header_icons'>
+                <VideoCallIcon className='header_icon'/>
+                <AppsIcon className='header_icon'/>
+                <NotificationsIcon className='header_icon'/>
                 <Avatar 
                     alt='Akash Lohani'
                     src='https://media-exp1.licdn.com/dms/image/C4E03AQFQj04hA5rJYA/profile-displayphoto-shrink_200_200/0/1548177700214?e=1651708800&v=beta&t=ftv4G6D337HX9cABB9YbPPPHsopY46xnuQDbOyH1p2Q'
