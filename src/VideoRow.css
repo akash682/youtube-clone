@@ -5,9 +5,9 @@
 }
 
 .videoRow > img {
-    object-fit: contain;
     width: 246px;
     height: 138px;
+    object-fit: fill;
 }
 
 .videoRow_text {
